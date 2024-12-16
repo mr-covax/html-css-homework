@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    background: #18181a;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.profile-container {
+    max-width: 900px;
+    padding: 20px;
+    align-items: center;
+}
+
+.profile-section {
+    display: flex;
+    padding-right: 5px;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-image {
+    width: 190x;
+    height: 190px;
+    align-items: center;
+    border: 2px solid #00ffc8;
+    border-radius: 15%;
+    display: block;
+}
+
+.bio {
+    line-height: 1.6;
+    color: #ffffff;
+    padding: 20px;
+    border: 2px solid #00ffc8;
+    border-radius: 10px;
+}
+
+.interests-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.interests-list {
+    list-style-type: circle;
+    padding: 20px 40px;
+    border: 2px solid #00ffc8;
+    border-radius: 4px;
+}
+
+.interests-list li {
+    margin: 10px 0;
+    padding: 5px 0;
+    color: #ffffff;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-links a {
+    color: #4a90e2;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #4a90e2;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #4a90e2;
+    color: white;
+} 
